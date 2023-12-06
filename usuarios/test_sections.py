@@ -7,7 +7,7 @@ def test_section():
     driver.get("http://www.automationpractice.pl/index.php")
 
     botond = driver.find_element(by=By.CLASS_NAME, value="sf-with-ul")
-    botond[2].click()
+    botond.click()
 
     time.sleep(5)
 

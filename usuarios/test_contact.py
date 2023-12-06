@@ -31,7 +31,7 @@ def test_sign_in():
     enviar.click()
 
 
-    time.sleep(8)
+    time.sleep(5)
     driver.quit()
 
 #Saul Vizcaino Soto 2019-8168
